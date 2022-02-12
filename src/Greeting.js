@@ -1,6 +1,10 @@
-const Greeting = () => {
+const Greeting = (props) => {
+
+    console.log(props); 
+
+
     return (
-      <h2>Hello unnamed stooge</h2>
+      <h2>Hello {props.name}</h2>
     ); 
   
   
